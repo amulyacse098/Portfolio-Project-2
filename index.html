@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio website</title> 
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2265d7e6bc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                <img src="images/logo 3.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi,Iam <span>Amulya</span><br> Luna from India.</h1>
+                </div>
+            </div>
+
+        </div>
+        <!-------------------about------------------->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background44.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Iam a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting.
+                         UX design (or user experience design) focuses on how intuitive, easy, and enjoyable.<br> It is to use a product (like a website or an app).<br> It involves conducting research to understand user needs, and mapping out a logical structure and flow for the product.<br>
+UI design (or user interface design) focuses on the visual, interactive elements of the product. <br>It designs all the screens and components that the user interacts with. It’s about creating digital products that are both aesthetically pleasing and flawlessly functional.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                                <li><span>Web Development</span><br>Web/App Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Fresher</span><br>UI/UX Developer</li>
+                                <li><span>2020-2024</span><br>HR(Assistant Manager) at Allset Business Solutions</li>
+                                <li><span>2019-2020</span><br>HR(GENERALIST) at Startup Tag Info Solutions </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024-Current</span><br>UI/UX Designer Training Institute at ACCORD INFO MATRIX</li>
+                                <li><span>2015-2019</span><br>BE(CSE) Annamalai University Faculty of Engg&Tech - Chidambaram</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    </div>           
+                </div>
+        </div>
+        <!-------------------------services-------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="Services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                 <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                 <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                 <a href="#">Learn More</a>
+                    </div>
+                    
+                    
+                    
+                </div>
+                    
+                </div>
+
+            </div>
+            <!--------------------------Portfolio---------------------------->
+            <div id="Portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="Work-List">
+                        <div class="Work">
+                            <img src="images/download 4.jpg">
+                            <div class="Layer">
+                                <h3>Social Media App</h3>
+                                <p>Big brands like Facebook, Instagram, and YouTube have all pivoted to short-form video content to keep users engaged, like TikTok. This content and messaging apps like Telegram, Whatsapp, and Discord are growing and popular and worth keeping an eye on throughout 2024</p>
+
+                            </div>
+                        </div>
+                        <div class="Work">
+                            <img src="images/images 2.jpg">
+                            <div class="Layer">
+                                <h3>DIgital Media App</h3>
+                                <p>A Digital media application (app) is a computer program, or software, designed to carry out or facilitate a task on a computing device, using digital media formats like audio, video, text, and graphics. </p>
+
+                            </div>
+                        </div>
+                        <div class="Work">
+                            <img src="images/images 3.jpg">
+                            <div class="Layer">
+                                <h3>Health Care Mobile App</h3>
+                                <p>Healthcare apps are mobile applications designed to improve the delivery of healthcare services to patients. They can be used for various purposes, from managing chronic conditions and monitoring symptoms to providing access to telemedicine services and connecting patients with healthcare providers.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        <!--------------------------Contact----------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="Contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>Contact@example.com</p>
+                        <p><i class="fa-solid fa-phone-square"></i>0123456789</p>
+                        <div class="Social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=" "><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                            <a href=" "><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <a href="images/Luna Amulya.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="Contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="Copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i>  Amulya .Made with  <i class="fa-solid fa-heart"></i> by Easy Tutorial</p>
+            </div>
+        </div>
+        <script>
+            var tablinks= document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+    </body>
+</html>
